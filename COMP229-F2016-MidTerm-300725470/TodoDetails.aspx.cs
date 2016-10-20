@@ -41,9 +41,9 @@ namespace COMP229_F2016_MidTerm_300725470
                 }
 
                 // add form data to the new Todo record
-                newTodo.TodoDescription = TodoDescriptionTextBox.Text;
+               // newTodo.TodoDescription = TodoDescriptionTextBox.Text;
                 newTodo.TodoNotes = TodoNotesTextBox.Text;
-                newTodo.Completed = CompletedTextBox.Text;
+                //newTodo.Completed = CompletedTextBox.Text;
 
                 // use LINQ to ADO.NET to add / insert new Todo into the db
 
