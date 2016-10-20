@@ -55,7 +55,7 @@ namespace COMP229_F2016_MidTerm_300725470
                 // save our changes - also updates and inserts
                 db.SaveChanges();
 
-                // Redirect back to the updated students page
+                // Redirect back to the updated todo page
                 Response.Redirect("~/TodoList.aspx");
             }
         }
